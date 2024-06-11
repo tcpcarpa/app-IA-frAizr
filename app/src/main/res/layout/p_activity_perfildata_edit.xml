@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.u_user.prof.EditPerfilDataActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/f_fond4" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:text="@string/editarPerfil"
+            android:textColor="@color/red"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonProfileCancel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/f_outline"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:text="@string/cancel"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonProfileEdit" />
+
+        <Button
+            android:id="@+id/buttonProfileEdit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/f_outline"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="200dp"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/f_outline"
+                android:padding="50dp">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonIg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/josefin_slab_light"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/insta"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/red"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPersonTelf"
+                    app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonTelf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/josefin_slab_light"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/telf"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/red"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPersonEdad"
+                    app:layout_constraintTop_toBottomOf="@+id/perfilFragTelf" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonUsu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/josefin_slab_light"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/usuario"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/red"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonEdad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/josefin_slab_light"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/edad"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/red"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPersonNam"
+                    app:layout_constraintTop_toBottomOf="@+id/perfilFragEdad" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonNam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/josefin_slab_light"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/red"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPersonUsu"
+                    app:layout_constraintTop_toBottomOf="@+id/PerfilFragNom" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonTwit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/josefin_slab_light"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/twit"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/red"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPersonfb"
+                    app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonfb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:fontFamily="@font/josefin_slab_light"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/face"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/red"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextPersonIg"
+                    app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/face"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="@+id/textView21"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonIg" />
+
+                <TextView
+                    android:id="@+id/perfilFragTelf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/telf"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="@+id/perfilFragEdad"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonEdad" />
+
+                <TextView
+                    android:id="@+id/perfilFragEdad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/edad"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="@+id/PerfilFragNom"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonNam" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/insta"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="@+id/perfilFragTelf"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonTelf" />
+
+                <TextView
+                    android:id="@+id/PerfilFragNom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/name"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="@+id/textView8"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonUsu" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/twit"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="@+id/textView19"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonfb" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/usuario"
+                    android:textColor="@color/red"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-15dp"
+                    android:layout_marginTop="60dp"
+                    android:clickable="true"
+                    app:backgroundTint="@color/red"
+                    app:elevation="10dp"
+                    app:fabSize="normal"
+                    app:layout_constraintStart_toEndOf="@+id/cardView2"
+                    app:layout_constraintTop_toTopOf="@+id/cardView2"
+                    app:srcCompat="@drawable/s_photo" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="100dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imagePerfil"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        tools:srcCompat="@drawable/s_uploading" />
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

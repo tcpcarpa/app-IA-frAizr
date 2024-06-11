@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">FRAiZR</string>
+    <!-- User -->
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="google">Continua con Google</string>
+    <string name="login">Log In</string>
+    <string name="introMail">Introduce tu mail</string>
+    <string name="logout">Log Out</string>
+    <string name="logoutPreg">¿¿ Estas seguro\n que quieres \nCerrar Sesión ??</string>
+    <string name="editar">Editar</string>
+    <string name="editarPerfil">Edita tu Perfil</string>
+    <string name="perfil">Perfil</string>
+    <string name="perfilDatosCom">Tus Datos Completos</string>
+
+    <string name="ok">¡¡ OK !!</string>
+    <string name="cancel">Cancelar</string>
+    <string name="coreoEje">loksea@gmail.com</string>
+    <string name="asunto">Asunto</string>
+    <string name="mensaje">Que quieres Contarnos</string>
+
+    <string name="nuevo">Primera vez Aquí</string>
+    <string name="old">Ya la conozco...</string>
+    <string name="delete">Borrar Usuario...</string>
+    <string name="deleteFin">Estás Seguro?\nQuieres Borrar tu Usuario \nPermanentemente...</string>
+
+    <string name="error">!! ERROR !! \n Algo salió Mal</string>
+
+    <!-- parametros -->
+    <string name="passowrd">Password</string>
+    <string name="pasolvido">Olvidates el Password</string>
+    <string name="notyet">No estas registrado? Registrate!</string>
+    <string name="sityet"> Ya stas registrado? Log In!</string>
+    <string name="name">Nombre</string>
+    <string name="usuario">Usuario</string>
+    <string name="email">Email</string>
+    <string name="edad">Edad</string>
+    <string name="telf">Telefono</string>
+    <string name="face">FaceBook</string>
+    <string name="insta">Instagram</string>
+    <string name="twit">Twitter</string>
+
+    <!-- Core -->
+    <string name="Recetas">Recetas</string>
+    <string name="MisRecetas">Mis Recetas</string>
+    <string name="crea">Crea</string>
+    <string name="busca">Busca</string>
+    <string name="inventa">inventa</string>
+
+    <!-- Ingredientes -->
+    <string name="ingredientes">Ingredientes</string>
+    <string name="instrucc">Instrucciones</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="Raciones">Raciones</string>
+
+    <!-- Paises -->
+
+    <!-- Buttons -->
+    <string name="skip">Skip</string>
+    <string name="previous">Back</string>
+    <string name="next">Next</string>
+    <string name="getstart">Empieza</string>
+
+    <!-- Board -->
+    <string name="start">Busca, \nCrea, \nInventa, \nComparte\n y \nDisfruta de Infinitas Recetas</string>
+    <string name="screen1">Inventa con IA</string>
+    <string name="screen2">¿Es Magia?</string>
+    <string name="screen3">Prueba Ya!!!</string>
+    <string name="screen1desc">Selecciona los ingredientes, escoje unos parametros, dale al play y a ver que se cuece</string>
+    <string name="screen2desc">Genera todo tipo de recetas, para isnpirarte, motivarte y disfrutar</string>
+    <string name="screen3desc">Cuanto más la uses, más acertarás, deja que la tecnologia entre en tu cocina también</string>
+
+    <!-- frag -->
+
+
+    <!-- Menu -->
+    <string name="home">Home</string>
+    <string name="set">Setting</string>
+    <string name="noche">Modo</string>
+    <string name="sonido">Sonido</string>
+    <string name="noti">Alertas</string>
+    <string name="rot">Rotación</string>
+    <string name="time">Tiempo</string>
+    <string name="act">actualizar</string>
+    <string name="about">About</string>
+    <string name="misCosas">Mis Cosas</string>
+    <string name="misDatos">Mis Datos</string>
+    <string name="tus">Personalizar</string>
+    <string name="tcp">T.C.P \n App Developer</string>
+    <string name="mailTo">Escribenos para cualquier consulta</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- Vegetales -->
+    <!-- Animales -->
+    <!-- Menu -->
+
+
+    <string name="by">By:</string>
+    <string name="ListaIng">Lista de Ingredientes</string>
+    <string name="mas">Saber Más</string>
+    <string name="PorN">Por el Nombre de la Receta</string>
+    <string name="rand">¡¡¡ Sorprendeme !!!</string>
+    <string name="volver">Volver</string>
+    <string name="guardar">Descargar Receta</string>
+    <string name="source">Ir a la Web</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
